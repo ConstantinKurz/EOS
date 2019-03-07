@@ -1,0 +1,27 @@
+Different EOS files prepared for usage in ETK. 
+
+
+Conversion to ETK Units:
+mu/=7.514e5*.4627;
+p/=7.514e5*.4627;
+rho*=939.5/7.514e5/.4627;
+
+
+============================================
+myeos is stefans/veronicas model and already in 
+Cactusunits
+Units and first 3 coloumns:
+mu = MeV/fm^3 rho = 1/fm^3 press = MeV/fm^3
+
+============================================
+SLypp.dat is SLy eos
+Units and coloumns:
+n_B = 1/fm^3  rho = g/cm^3 press = dyn/cm^2
+SlyppETK.dat is converted to Cactusunits
+same units as myeos.dat
+ 
+============================================
+eosQxP.dat is QxP EOS
+Units:
+mu = MeV/fm^3 rho = 1/fm^3 press = MeV/fm^3
+ETK version also in Cactusunits 
